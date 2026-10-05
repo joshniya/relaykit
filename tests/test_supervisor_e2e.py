@@ -63,7 +63,6 @@ def test_rate_limit_waits_then_resumes(project, tmp_path):
         {"text": "", "rate_limit": reset},
         {"text": "RELAY COMPLETE", "complete": True},
     ])
-    t0 = time.time()
     assert sup.run() == EXIT_DONE
     assert time.time() >= reset - 0.5       # it actually waited for the reported reset time
     cs = calls(scen)
