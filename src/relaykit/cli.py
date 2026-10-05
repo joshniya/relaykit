@@ -19,7 +19,7 @@ typical flow:
   relaykit plan my-feature --goal "..."   plan it WITH an agent (it asks you questions)
   relaykit run my-feature            run the relay (add --detach to run in the background)
   relaykit status / watch / stop my-feature
-docs: https://github.com/Jishwuh/relaykit
+docs: https://github.com/joshniya/relaykit
 """
 
 

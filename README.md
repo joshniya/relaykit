@@ -68,14 +68,14 @@ relaykit doctor                # checks Python, agents, git, keep-awake
 and the three skills; bundles the CLI so it works even without pipx):
 
 ```
-/plugin marketplace add Jishwuh/relaykit
+/plugin marketplace add joshniya/relaykit
 /plugin install relaykit@relaykit
 ```
 
 **Gemini CLI extension** (same commands as TOML + skills):
 
 ```bash
-gemini extensions install https://github.com/Jishwuh/relaykit
+gemini extensions install https://github.com/joshniya/relaykit
 ```
 
 **Codex, Cursor, Copilot, opencode, Amp, Kiro, Qwen** — install the skills into the folders they read

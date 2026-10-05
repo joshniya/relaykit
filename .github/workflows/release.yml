@@ -1,6 +1,6 @@
 name: release
 # Publishes to PyPI when a version tag (v*) is pushed, using PyPI "trusted publishing":
-# on pypi.org -> Publishing -> add a pending publisher: owner Jishwuh, repo relaykit,
+# on pypi.org -> Publishing -> add a pending publisher: owner joshniya, repo relaykit,
 # workflow release.yml, environment pypi. No API token is stored anywhere.
 on:
   push:

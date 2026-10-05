@@ -9,7 +9,7 @@ description = "Run any AI coding agent (Claude Code, Codex, Gemini, ...) on proj
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "Jishwuh" }]
+authors = [{ name = "joshniya" }]
 keywords = ["claude-code", "codex", "gemini-cli", "ai-agents", "coding-agent", "automation", "long-running", "handoff", "relay"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -25,9 +25,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/Jishwuh/relaykit"
-Documentation = "https://github.com/Jishwuh/relaykit/tree/main/docs"
-Issues = "https://github.com/Jishwuh/relaykit/issues"
+Homepage = "https://github.com/joshniya/relaykit"
+Documentation = "https://github.com/joshniya/relaykit/tree/main/docs"
+Issues = "https://github.com/joshniya/relaykit/issues"
 
 [project.scripts]
 relaykit = "relaykit.cli:main"

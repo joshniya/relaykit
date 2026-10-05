@@ -5,7 +5,7 @@ Thanks for helping! relaykit is pure Python 3.9+ with **no runtime dependencies*
 
 ## Setup
 ```bash
-git clone https://github.com/Jishwuh/relaykit && cd relaykit
+git clone https://github.com/joshniya/relaykit && cd relaykit
 python -m pip install pytest pyflakes
 python -m pytest            # unit + end-to-end (a scripted fake agent CLI; no API calls)
 python -m pyflakes src tests
