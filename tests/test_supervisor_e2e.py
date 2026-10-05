@@ -58,14 +58,14 @@ def test_no_marker_resumes_same_session(project, tmp_path):
 
 
 def test_rate_limit_waits_then_resumes(project, tmp_path):
-    reset = int(time.time()) + 2
+    reset = time.time() + 3.0
     sup, d, scen = setup(project, tmp_path, [
         {"text": "", "rate_limit": reset},
         {"text": "RELAY COMPLETE", "complete": True},
     ])
     t0 = time.time()
     assert sup.run() == EXIT_DONE
-    assert time.time() - t0 >= 1.5          # it actually waited for the reset
+    assert time.time() >= reset - 0.5       # it actually waited for the reported reset time
     cs = calls(scen)
     assert "--resume" in cs[1]["argv"]      # same session after the wait
 
