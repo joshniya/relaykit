@@ -1,0 +1,5 @@
+description = "Show where a relaykit relay is"
+prompt = """
+Run `relaykit status {{args}}` and `relaykit logs <name> -n 40`, read the relay's RELAY_PROGRESS.md (Current, Next
+action, Blockers, Owner handoff) and give me a short report.
+"""

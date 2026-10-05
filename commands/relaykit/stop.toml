@@ -1,0 +1,4 @@
+description = "Stop a relaykit relay"
+prompt = """
+Run `relaykit stop {{args}}`, then `relaykit status` for it, and tell me the state it was left in.
+"""

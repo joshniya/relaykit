@@ -1,0 +1,16 @@
+{
+  "name": "relaykit",
+  "owner": { "name": "Jishwuh", "url": "https://github.com/Jishwuh" },
+  "metadata": {
+    "description": "relaykit: unattended, multi-session, multi-agent relays for big coding projects."
+  },
+  "plugins": [
+    {
+      "name": "relaykit",
+      "source": "./",
+      "description": "Plan, run and watch relays: chains of fresh agent sessions that build a plan unattended with file-based handoffs.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

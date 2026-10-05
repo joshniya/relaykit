@@ -1,0 +1,8 @@
+description = "Profile this codebase for relaykit (scan, verify commands, record the test baseline)"
+prompt = """
+Set up relaykit in this project. Run `relaykit scan`, then follow the relaykit-init skill to verify the commands,
+record the test baseline and write the architecture notes, conventions and hazards into .relaykit/PROJECT.md below
+`<!-- relaykit:keep -->`. Then run `relaykit doctor`, ask me which agents to use and, for EVERY agent I pick, which
+model and reasoning effort (never choose for me), and save each with `relaykit agents <name> --model <m> --effort <e>`.
+Arguments: {{args}}
+"""

@@ -1,0 +1,7 @@
+description = "Start a relaykit relay in the background after confirming agents, models and effort"
+prompt = """
+Follow the relaykit-run skill. Run `relaykit run <name> --show` with the flags from the arguments, show me the
+setup and get my confirmation of every agent's model and reasoning effort (save changes with
+`relaykit agents <name> --model <m> --effort <e>`), then run `relaykit run <name> --detach --yes`.
+Arguments: {{args}}
+"""

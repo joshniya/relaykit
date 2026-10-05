@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relaykit"
+version = "0.1.0"
+description = "Run any AI coding agent (Claude Code, Codex, Gemini, ...) on projects too big for one context window: unattended back-to-back sessions with file-based handoffs, context limits, rate-limit waits, failover, checkpoints and notifications."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jishwuh" }]
+keywords = ["claude-code", "codex", "gemini-cli", "ai-agents", "coding-agent", "automation", "long-running", "handoff", "relay"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Build Tools",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Jishwuh/relaykit"
+Documentation = "https://github.com/Jishwuh/relaykit/tree/main/docs"
+Issues = "https://github.com/Jishwuh/relaykit/issues"
+
+[project.scripts]
+relaykit = "relaykit.cli:main"
+rk = "relaykit.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+relaykit = ["templates/*.md", "assets/skills/*/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

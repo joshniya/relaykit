@@ -1,0 +1,6 @@
+{
+  "name": "relaykit",
+  "version": "0.1.0",
+  "description": "Plan, run and watch relaykit relays: unattended back-to-back agent sessions with file-based handoffs.",
+  "contextFileName": "GEMINI.md"
+}

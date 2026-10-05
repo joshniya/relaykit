@@ -1,0 +1,1 @@
+relay sessions hand off work through a progress file so nothing is lost between them

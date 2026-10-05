@@ -1,0 +1,10 @@
+{
+  "name": "relaykit",
+  "version": "0.1.0",
+  "description": "Run Claude Code (or Codex, Gemini, Kiro...) on projects too big for one context window: unattended back-to-back sessions with file-based handoffs, context limits, rate-limit waits, failover, git checkpoints and notifications.",
+  "author": { "name": "Jishwuh", "url": "https://github.com/Jishwuh" },
+  "homepage": "https://github.com/Jishwuh/relaykit",
+  "repository": "https://github.com/Jishwuh/relaykit",
+  "license": "MIT",
+  "keywords": ["relay", "long-running", "unattended", "handoff", "context", "automation", "codex", "gemini"]
+}
